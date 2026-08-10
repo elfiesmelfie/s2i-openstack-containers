@@ -9,15 +9,12 @@ master glance-tempest-plugin https://opendev.org/openstack/glance-tempest-plugin
 master heat-tempest-plugin https://opendev.org/openstack/heat-tempest-plugin.git master c53f251cca7f610b94370d014f32646d9e9070f8
 master ironic-tempest-plugin https://opendev.org/openstack/ironic-tempest-plugin.git master 88dbe63b3c77c7c8c7fcfe97b52a5409def4f7ef
 master keystone-tempest-plugin https://opendev.org/openstack/keystone-tempest-plugin.git master c7680f401bb90de5898a0a838793c81e5c463a1e
-master magnum-tempest-plugin https://opendev.org/openstack/magnum-tempest-plugin.git master 0e366e745bde11716a14ec90a56dbe826a454ac5
 master manila-tempest-plugin https://opendev.org/openstack/manila-tempest-plugin.git master 69e8ab6d76489149aa59b4f86330991a2d6943de
-master mistral-tempest-plugin https://opendev.org/openstack/mistral-tempest-plugin.git master 966d7eff474a44ea016754fc01548d5ee9cfff6c
 master networking-l2gw https://opendev.org/openstack/networking-l2gw.git master baf61c16db988b6782905bb0dc99c52758b3654d
 master neutron-tempest-plugin https://opendev.org/openstack/neutron-tempest-plugin.git master 1e081bdbba689ac5f3f77eab1d67ecf91239ce0c
 master octavia-tempest-plugin https://opendev.org/openstack/octavia-tempest-plugin.git master 3d0aefdebb4de7e8ef80821fe8e7ce91a982e92f
 master telemetry-tempest-plugin https://opendev.org/openstack/telemetry-tempest-plugin.git master 4a7e99a9c93fb797d853b6438bc795073eef5bb3
 master trove-tempest-plugin https://opendev.org/openstack/trove-tempest-plugin.git master e038559f73daf60d56121e624f71b5a294988e8b
-master vitrage-tempest-plugin https://opendev.org/openstack/vitrage-tempest-plugin.git master 00abd07f08979af7f9219213ca55a29561f6b7ce
 master watcher-tempest-plugin https://opendev.org/openstack/watcher-tempest-plugin.git master 5ef3d55f37e765e7a8068381b7becccb33757d02
 master whitebox-neutron-tempest-plugin https://opendev.org/x/whitebox-neutron-tempest-plugin.git master cb6def804921a2d36f46fc3a4d779a8083cbcc49
 master whitebox-tempest-plugin https://opendev.org/openstack/whitebox-tempest-plugin.git master 66def1bcf85ac6ea0f1c6a8583aef963c206e96c

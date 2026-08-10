@@ -99,6 +99,8 @@ RUN chmod +x /usr/local/bin/run_tempest.sh && \
     chmod 440 /etc/sudoers.d/tempest_sudoers
 
 ENV USE_EXTERNAL_FILES=true
+ENV SSL_CERT_FILE=/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+ENV REQUESTS_CA_BUNDLE=/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
 
 ENTRYPOINT ["/usr/local/bin/run_tempest.sh"]
 
