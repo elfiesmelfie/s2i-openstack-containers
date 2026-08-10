@@ -1,0 +1,2 @@
+# All plugins built from source (see sources.txt)
+# No additional Python deps required beyond what plugin requirements.txt files pull in

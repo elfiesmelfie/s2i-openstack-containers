@@ -1,0 +1,11 @@
+# Runtime system dependencies
+python3
+python3-pip
+python3-cryptography
+# Network utilities used by tempest
+iputils
+# Subunit test result processing
+subunit-filters
+python3-subunit
+# Image format conversion (used by some tempest tests)
+qemu-img

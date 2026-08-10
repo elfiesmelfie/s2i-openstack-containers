@@ -1,0 +1,2 @@
+# tempest and python-tempestconf are built from source (see sources.txt)
+# No additional Python deps required beyond what their requirements.txt pulls in
