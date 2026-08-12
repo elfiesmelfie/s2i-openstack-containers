@@ -73,6 +73,17 @@ colorama==0.4.6
     # via
     #   -c upper-constraints.txt.master
     #   gabbi
+cryptography==43.0.3
+    # via
+    #   -c upper-constraints.txt.master
+    #   -r src/barbican-tempest-plugin/requirements.txt
+    #   -r src/octavia-tempest-plugin/requirements.txt
+    #   -r src/tempest/requirements.txt
+    #   barbican-tempest-plugin
+    #   openstacksdk
+    #   paramiko
+    #   pyopenssl
+    #   tempest
 ddt==1.7.2
     # via
     #   -c upper-constraints.txt.master
