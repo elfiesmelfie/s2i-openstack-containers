@@ -1,0 +1,6 @@
+# See the OWNERS docs at https://www.kubernetes.dev/docs/guide/owners/
+approvers:
+  - elfiesmelfie
+
+reviewers:
+  - openstack-k8s-operators/teams/telemetry
