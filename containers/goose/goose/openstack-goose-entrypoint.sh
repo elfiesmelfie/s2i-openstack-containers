@@ -215,7 +215,7 @@ configure_additional_models() {
                 base_url: .baseURL,
                 base_path: "/v1/responses",
                 models: [{name: .name}],
-                headers: {"X-LCS-Merge-Server-Tools": "true"},
+                headers: {"X-LCS-Merge-Server-Tools": "true", "User-Agent": "openstack-assistant"},
                 supports_streaming: true,
                 requires_auth: true,
                 auth: {
@@ -276,7 +276,7 @@ configure_assistant() {
           base_url: $base_url,
           base_path: "/v1/responses",
           models: [{name: $model}],
-          headers: {"X-LCS-Merge-Server-Tools": "true"},
+          headers: {"X-LCS-Merge-Server-Tools": "true", "User-Agent": "openstack-assistant"},
           supports_streaming: true,
           requires_auth: true,
           auth: {
